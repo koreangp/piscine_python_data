@@ -6,7 +6,7 @@
 #    By: pscala <pscala@student.42.fr>              +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/11/20 11:44:39 by pscala            #+#    #+#              #
-#    Updated: 2025/11/24 14:06:12 by pscala           ###   ########.fr        #
+#    Updated: 2025/11/27 14:47:17 by pscala           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -19,7 +19,7 @@ ft_dict = {"Hello" : "titi!"}
 
 ft_list[1] = "World"
 ft_tuple = (ft_tuple[0], "France")
-ft_set[1] = "Paris"
+# ft_set[1] = "Paris"
 
 print(type(ft_list))
 print(type(ft_tuple))
