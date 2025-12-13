@@ -6,7 +6,7 @@
 #    By: pscala <pscala@student.42.fr>              +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/11/27 15:41:39 by pscala            #+#    #+#              #
-#    Updated: 2025/11/27 16:25:06 by pscala           ###   ########.fr        #
+#    Updated: 2025/12/13 19:52:40 by pscala           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -14,9 +14,8 @@ from datetime import date
 import time
 
 
-months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
-
 def main() -> None:
+	months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
 	ft_date = date.today()
 	day = ft_date.day
 	month = months[ft_date.month - 1]
