@@ -11,7 +11,7 @@ from colors import RESET, RED, GREEN, YELLOW, BOLD
 def main() -> int:
     """entry point"""
 
-    if (len(sys.argv) != 3):
+    if len(sys.argv) != 3:
         print(f"{RED}AssertionError: the arguments are bad{RESET}")
         return (1)
 
